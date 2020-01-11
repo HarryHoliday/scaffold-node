@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  backedn:
+    container_name: 'backend'
+    hostname: 'backend'
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+# networks:
+#   default:
+#     external:
+#       name: network

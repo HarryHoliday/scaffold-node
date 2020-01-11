@@ -1,0 +1,23 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: APP_NAME
+  namespace: SERVICE_ENV
+  labels:
+    app: APP_NAME
+    env: SERVICE_ENV
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: APP_NAME
+  template:
+    metadata:
+      labels:
+        app: APP_NAME
+    spec:
+      containers:
+      - name: APP_NAME
+        image: IMAGE_REPO
+        ports:
+        - containerPort: 80
