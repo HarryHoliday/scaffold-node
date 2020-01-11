@@ -1,7 +1,7 @@
 {
   "name": "scaffold-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple scaffold for node",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --config webpack.config.js --watch",
@@ -20,7 +20,10 @@
       "git add"
     ]
   },
-  "keywords": ['node'],
+  "keywords": [
+    "scaffold",
+    "node"
+  ],
   "author": "harry holiday <12356741@daum.net> (https://github.com/HarryHoliday)",
   "license": "MIT",
   "devDependencies": {
