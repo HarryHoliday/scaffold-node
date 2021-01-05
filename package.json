@@ -59,7 +59,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "pino": "^5.15.0",
     "pino-pretty": "^3.5.0"
   }
